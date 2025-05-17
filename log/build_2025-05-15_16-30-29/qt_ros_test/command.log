@@ -1,0 +1,2 @@
+Invoking command in '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test -- -j4 -l4
+Invoked command in '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test -- -j4 -l4

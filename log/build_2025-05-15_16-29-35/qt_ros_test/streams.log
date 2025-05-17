@@ -1,0 +1,294 @@
+[0.017s] Invoking command in '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test -- -j4 -l4
+[0.097s] Consolidate compiler generated dependencies of target qt_ros_test
+[0.110s] [  3%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main_window.cpp.o
+[4.208s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In destructor ‘virtual qt_ros_test::MainWindow::~MainWindow()’:
+[4.208s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:112:22: warning: ‘static int QProcess::execute(const QString&)’ is deprecated: Use QProcess::execute(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.208s]   112 |     QProcess::execute("ssh -Y wheeltec@192.168.0.100\n"
+[4.208s]       |     ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.208s]   113 |                     "killall -s INT -w ros2\n");
+[4.208s]       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.208s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.208s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.209s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.209s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.209s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:265:16: note: declared here
+[4.209s]   265 |     static int execute(const QString &command);
+[4.209s]       |                ^~~~~~~
+[4.209s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::init_cmd()’:
+[4.209s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:142:16: warning: ‘void QProcess::start(const QString&, QIODevice::OpenMode)’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]
+[4.209s]   142 |     _cmd->start("bash");
+[4.209s]       |     ~~~~~~~~~~~^~~~~~~~
+[4.209s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.210s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.210s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.210s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.210s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here
+[4.210s]   168 |     void start(const QString &command, OpenMode mode = ReadWrite);
+[4.210s]       |          ^~~~~
+[4.211s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::closeroslaunch()’:
+[4.211s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:196:19: warning: ‘void QProcess::start(const QString&, QIODevice::OpenMode)’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]
+[4.211s]   196 |     killall->start("ssh -Y wheeltec@192.168.3.120\n"
+[4.211s]       |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.211s]   197 |                     "killall -s INT -wg ros2\n");
+[4.211s]       |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.211s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.211s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.211s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.211s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.211s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here
+[4.211s]   168 |     void start(const QString &command, OpenMode mode = ReadWrite);
+[4.211s]       |          ^~~~~
+[4.212s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::slot_cmd_read()’:
+[4.212s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:244:10: warning: ISO C++ forbids variable length array ‘buffer’ [-Wvla]
+[4.212s]   244 |     char buffer[maxSize];
+[4.212s]       |          ^~~~~~
+[4.214s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::ReadSettings()’:
+[4.215s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:300:10: warning: unused variable ‘remember’ [-Wunused-variable]
+[4.215s]   300 |     bool remember = settings.value("remember_settings", false).toBool();
+[4.215s]       |          ^~~~~~~~
+[4.215s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:301:10: warning: unused variable ‘checked’ [-Wunused-variable]
+[4.215s]   301 |     bool checked = settings.value("use_environment_variables", false).toBool();
+[4.215s]       |          ^~~~~~~
+[4.238s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_webusbcam_clicked(bool)’:
+[4.238s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:597:23: warning: ‘void QProcess::start(const QString&, QIODevice::OpenMode)’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]
+[4.238s]   597 |         killall->start("ssh -Y wheeltec@192.168.0.100\n"
+[4.238s]       |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.238s]   598 |                 "killall -s INT -g ros2\n");
+[4.238s]       |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.238s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.238s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.238s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.238s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.238s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here
+[4.238s]   168 |     void start(const QString &command, OpenMode mode = ReadWrite);
+[4.238s]       |          ^~~~~
+[4.238s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_2dmap_clicked(bool)’:
+[4.238s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:621:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.238s]   621 |         rviz_cmd->startDetached("rviz2");
+[4.238s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+[4.238s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.238s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.238s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.238s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.239s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.239s]   280 |     static bool startDetached(const QString &command);
+[4.239s]       |                 ^~~~~~~~~~~~~
+[4.239s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:627:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.239s]   627 |         rviz_cmd->startDetached("killall -2 rviz2");
+[4.239s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[4.239s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.239s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.239s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.239s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.239s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.239s]   280 |     static bool startDetached(const QString &command);
+[4.239s]       |                 ^~~~~~~~~~~~~
+[4.240s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_2dmap_2_clicked()’:
+[4.240s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:651:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.240s]   651 |         rviz_cmd->startDetached("rviz2");
+[4.240s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+[4.240s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.240s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.240s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.240s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.240s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.241s]   280 |     static bool startDetached(const QString &command);
+[4.241s]       |                 ^~~~~~~~~~~~~
+[4.241s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:657:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.241s]   657 |         rviz_cmd->startDetached("killall -2 rviz2");
+[4.241s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[4.241s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.241s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.241s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.241s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.241s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.241s]   280 |     static bool startDetached(const QString &command);
+[4.241s]       |                 ^~~~~~~~~~~~~
+[4.241s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_2dmap_3_clicked()’:
+[4.241s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:681:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.241s]   681 |         rviz_cmd->startDetached("rviz2");
+[4.241s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+[4.241s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.241s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.241s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.241s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.241s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.241s]   280 |     static bool startDetached(const QString &command);
+[4.241s]       |                 ^~~~~~~~~~~~~
+[4.241s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:687:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.241s]   687 |         rviz_cmd->startDetached("killall -2 rviz2");
+[4.241s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[4.241s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.241s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.242s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.242s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.242s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.242s]   280 |     static bool startDetached(const QString &command);
+[4.242s]       |                 ^~~~~~~~~~~~~
+[4.242s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_2dnav_clicked(bool)’:
+[4.242s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:729:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.242s]   729 |         rviz_cmd->startDetached("rviz2");
+[4.242s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+[4.242s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.242s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.242s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.242s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.242s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.242s]   280 |     static bool startDetached(const QString &command);
+[4.242s]       |                 ^~~~~~~~~~~~~
+[4.242s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:735:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.242s]   735 |         rviz_cmd->startDetached("killall -2 rviz2");
+[4.242s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[4.242s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.242s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.242s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.242s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.242s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.242s]   280 |     static bool startDetached(const QString &command);
+[4.242s]       |                 ^~~~~~~~~~~~~
+[4.242s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_3dmap_clicked(bool)’:
+[4.242s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:760:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.242s]   760 |         rviz_cmd->startDetached("rviz2");
+[4.242s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+[4.242s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.242s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.242s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.242s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.242s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.242s]   280 |     static bool startDetached(const QString &command);
+[4.242s]       |                 ^~~~~~~~~~~~~
+[4.242s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:766:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.243s]   766 |         rviz_cmd->startDetached("killall -2 rviz2");
+[4.243s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[4.243s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.243s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.243s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.243s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.243s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.243s]   280 |     static bool startDetached(const QString &command);
+[4.243s]       |                 ^~~~~~~~~~~~~
+[4.243s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_3dnav_clicked(bool)’:
+[4.243s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:798:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.243s]   798 |         rviz_cmd->startDetached("rviz2");
+[4.243s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+[4.243s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.243s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.243s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.243s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.243s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.243s]   280 |     static bool startDetached(const QString &command);
+[4.243s]       |                 ^~~~~~~~~~~~~
+[4.243s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:805:32: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.243s]   805 |         rviz_cmd->startDetached("killall -2 rviz2");
+[4.243s]       |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+[4.243s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.243s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.243s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.243s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.243s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.243s]   280 |     static bool startDetached(const QString &command);
+[4.243s]       |                 ^~~~~~~~~~~~~
+[4.243s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_nfsrobot_clicked(bool)’:
+[4.243s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:833:16: warning: ‘void QProcess::start(const QString&, QIODevice::OpenMode)’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]
+[4.243s]   833 |     _cmd->start("bash");
+[4.243s]       |     ~~~~~~~~~~~^~~~~~~~
+[4.243s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.243s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.243s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.243s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.243s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here
+[4.243s]   168 |     void start(const QString &command, OpenMode mode = ReadWrite);
+[4.243s]       |          ^~~~~
+[4.244s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_unfsrobot_clicked(bool)’:
+[4.244s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:844:16: warning: ‘void QProcess::start(const QString&, QIODevice::OpenMode)’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]
+[4.244s]   844 |     _cmd->start("bash");
+[4.244s]       |     ~~~~~~~~~~~^~~~~~~~
+[4.244s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.244s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.244s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.244s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.244s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here
+[4.244s]   168 |     void start(const QString &command, OpenMode mode = ReadWrite);
+[4.244s]       |          ^~~~~
+[4.244s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_nfsarm_clicked(bool)’:
+[4.244s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:855:16: warning: ‘void QProcess::start(const QString&, QIODevice::OpenMode)’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]
+[4.244s]   855 |     _cmd->start("bash");
+[4.244s]       |     ~~~~~~~~~~~^~~~~~~~
+[4.244s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.244s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.244s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.244s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.244s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here
+[4.244s]   168 |     void start(const QString &command, OpenMode mode = ReadWrite);
+[4.244s]       |          ^~~~~
+[4.244s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_unfsarm_clicked(bool)’:
+[4.244s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:866:16: warning: ‘void QProcess::start(const QString&, QIODevice::OpenMode)’ is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]
+[4.244s]   866 |     _cmd->start("bash");
+[4.244s]       |     ~~~~~~~~~~~^~~~~~~~
+[4.244s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.244s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.244s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.244s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.244s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here
+[4.244s]   168 |     void start(const QString &command, OpenMode mode = ReadWrite);
+[4.244s]       |          ^~~~~
+[4.245s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_rqt_clicked(bool)’:
+[4.245s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:899:27: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.245s]   899 |     rqt_cmd->startDetached("rqt");
+[4.245s]       |     ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+[4.245s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.245s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.245s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.245s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.245s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.245s]   280 |     static bool startDetached(const QString &command);
+[4.245s]       |                 ^~~~~~~~~~~~~
+[4.245s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_pushButton_rviz_clicked(bool)’:
+[4.245s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:905:28: warning: ‘static bool QProcess::startDetached(const QString&)’ is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.245s]   905 |     rviz_cmd->startDetached("rviz2");
+[4.245s]       |     ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+[4.245s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.245s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.245s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.245s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.245s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here
+[4.245s]   280 |     static bool startDetached(const QString &command);
+[4.245s]       |                 ^~~~~~~~~~~~~
+[4.245s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function ‘void qt_ros_test::MainWindow::on_quit_button_2_clicked(bool)’:
+[4.245s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:970:22: warning: ‘static int QProcess::execute(const QString&)’ is deprecated: Use QProcess::execute(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]
+[4.245s]   970 |     QProcess::execute("ssh -Y wheeltec@192.168.0.100\n"
+[4.245s]       |     ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.245s]   971 |                       "killall -s INT -w ros2\n");
+[4.245s]       |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.245s] In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,
+[4.245s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,
+[4.245s]                  from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,
+[4.245s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:
+[4.245s] /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:265:16: note: declared here
+[4.245s]   265 |     static int execute(const QString &command);
+[4.245s]       |                ^~~~~~~
+[5.754s] [  7%] Linking CXX executable qt_ros_test
+[8.250s] [100%] Built target qt_ros_test
+[8.256s] Invoked command in '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test -- -j4 -l4
+[8.287s] Invoking command in '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test
+[8.291s] -- Install configuration: "Debug"
+[8.291s] -- Installing: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/lib/qt_ros_test/qt_ros_test
+[8.313s] -- Set runtime path of "/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/lib/qt_ros_test/qt_ros_test" to "/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/lib"
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/launch
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/launch/qt_ros_test.launch.py
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/ament_index/resource_index/package_run_dependencies/qt_ros_test
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/ament_index/resource_index/parent_prefix_path/qt_ros_test
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/environment/ament_prefix_path.sh
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/environment/ament_prefix_path.dsv
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/environment/path.sh
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/environment/path.dsv
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/local_setup.bash
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/local_setup.sh
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/local_setup.zsh
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/local_setup.dsv
+[8.313s] -- Installing: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/package.dsv
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/ament_index/resource_index/packages/qt_ros_test
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/cmake/qt_ros_testConfig.cmake
+[8.313s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/cmake/qt_ros_testConfig-version.cmake
+[8.314s] -- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/package.xml
+[8.315s] Invoked command in '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test

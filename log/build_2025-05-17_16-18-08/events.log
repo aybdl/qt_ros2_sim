@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.001224] (qt_ros_test) JobQueued: {'identifier': 'qt_ros_test', 'dependencies': OrderedDict()}
+[0.001248] (wheeltec_robot_urdf) JobQueued: {'identifier': 'wheeltec_robot_urdf', 'dependencies': OrderedDict()}
+[0.001257] (qt_ros_test) JobStarted: {'identifier': 'qt_ros_test'}
+[0.003669] (wheeltec_robot_urdf) JobStarted: {'identifier': 'wheeltec_robot_urdf'}
+[0.006565] (qt_ros_test) JobProgress: {'identifier': 'qt_ros_test', 'progress': 'cmake'}
+[0.007426] (qt_ros_test) JobProgress: {'identifier': 'qt_ros_test', 'progress': 'build'}
+[0.007450] (qt_ros_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test', '--', '-j4', '-l4'], 'cwd': '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'wheeltec'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOME', '/home/wheeltec'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/wheeltec/Qt/6.5.3/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/wheeltec/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1332'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1935'), ('COLCON_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'wheeltec'), ('JOURNAL_STREAM', '8:22322'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wheeltec'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', '3328b75a46014fff989b327ec4496e36'), ('SESSION_MANAGER', 'local/humble:@/tmp/.ICE-unix/1304,unix/humble:/tmp/.ICE-unix/1304'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JJ0Q62'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble')]), 'shell': False}
+[0.010990] (wheeltec_robot_urdf) JobProgress: {'identifier': 'wheeltec_robot_urdf', 'progress': 'cmake'}
+[0.011014] (wheeltec_robot_urdf) JobProgress: {'identifier': 'wheeltec_robot_urdf', 'progress': 'build'}
+[0.011023] (wheeltec_robot_urdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf', '--', '-j4', '-l4'], 'cwd': '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'wheeltec'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOME', '/home/wheeltec'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/wheeltec/Qt/6.5.3/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/wheeltec/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1332'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1935'), ('COLCON_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'wheeltec'), ('JOURNAL_STREAM', '8:22322'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wheeltec'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', '3328b75a46014fff989b327ec4496e36'), ('SESSION_MANAGER', 'local/humble:@/tmp/.ICE-unix/1304,unix/humble:/tmp/.ICE-unix/1304'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JJ0Q62'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble')]), 'shell': False}
+[0.039847] (wheeltec_robot_urdf) CommandEnded: {'returncode': 0}
+[0.059847] (wheeltec_robot_urdf) JobProgress: {'identifier': 'wheeltec_robot_urdf', 'progress': 'install'}
+[0.068485] (wheeltec_robot_urdf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf'], 'cwd': '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'wheeltec'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOME', '/home/wheeltec'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/wheeltec/Qt/6.5.3/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/wheeltec/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1332'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1935'), ('COLCON_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'wheeltec'), ('JOURNAL_STREAM', '8:22322'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wheeltec'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', '3328b75a46014fff989b327ec4496e36'), ('SESSION_MANAGER', 'local/humble:@/tmp/.ICE-unix/1304,unix/humble:/tmp/.ICE-unix/1304'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JJ0Q62'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble')]), 'shell': False}
+[0.073198] (qt_ros_test) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target qt_ros_test\n'}
+[0.073541] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.073588] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes\n'}
+[0.073613] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases\n'}
+[0.073633] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases/waffle_pi_base.stl\n'}
+[0.073653] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases/waffle_base.stl\n'}
+[0.073673] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases/burger_base.stl\n'}
+[0.073693] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/wheels\n'}
+[0.073712] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/wheels/left_tire.stl\n'}
+[0.073732] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/wheels/right_tire.stl\n'}
+[0.073750] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors\n'}
+[0.073769] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/astra.jpg\n'}
+[0.073788] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/astra.dae\n'}
+[0.073806] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/lds.stl\n'}
+[0.073824] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/r200.dae\n'}
+[0.073842] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/r200.jpg\n'}
+[0.073862] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes\n'}
+[0.073882] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/lf_wheel_link.STL\n'}
+[0.073901] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/camera_link.STL\n'}
+[0.073920] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/base_link.STL\n'}
+[0.073940] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/rf_wheel_link.STL\n'}
+[0.073960] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/lb_wheel_link.STL\n'}
+[0.074041] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/controller_link.STL\n'}
+[0.074104] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/laser.STL\n'}
+[0.074167] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/rb_wheel_link.STL\n'}
+[0.074229] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/rviz\n'}
+[0.074294] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/rviz/model.rviz\n'}
+[0.074357] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf\n'}
+[0.074419] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_diff_robot.urdf\n'}
+[0.074482] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_4wd_dl_robot.urdf\n'}
+[0.074554] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_mec_dl_robot.urdf\n'}
+[0.074621] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/four_wheel_diff_dl_robot.urdf\n'}
+[0.074686] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_omni_robot.urdf\n'}
+[0.076328] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_akm_bs_robot.urdf\n'}
+[0.076418] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mec_EightDrive_robot.urdf\n'}
+[0.076473] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_mec_dl_robot.urdf\n'}
+[0.076531] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_akm_robot.urdf\n'}
+[0.076588] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_diff_robot.urdf\n'}
+[0.076692] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_akm_dl_robot.urdf\n'}
+[0.076749] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_4wd_robot.urdf\n'}
+[0.076797] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_four_wheel_diff_dl_robot.urdf\n'}
+[0.076855] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_mec_moveit.urdf\n'}
+[0.076905] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_mec_dl_robot.urdf\n'}
+[0.076954] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_4wd_dl_robot.urdf\n'}
+[0.077014] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_mec_robot.urdf\n'}
+[0.077080] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_akm_robot.urdf\n'}
+[0.077136] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_mec_bs_robot.urdf\n'}
+[0.077203] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_four_wheel_diff_bs_robot.urdf\n'}
+[0.077259] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_4wd_bs_robot.urdf\n'}
+[0.077307] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/brushless_senior_diff.urdf\n'}
+[0.077346] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/four_wheel_diff_bs_robot.urdf\n'}
+[0.077506] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_omni_robot.urdf\n'}
+[0.077543] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_4wd_dl_robot.urdf\n'}
+[0.077564] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_omni_robot.urdf\n'}
+[0.077593] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_4wd_bs_robot.urdf\n'}
+[0.077655] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_mec_robot.urdf\n'}
+[0.077707] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_tank_moveit.urdf\n'}
+[0.078174] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_4wd_bs_robot.urdf\n'}
+[0.078275] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_mec_bs_robot.urdf\n'}
+[0.081198] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/ament_index/resource_index/package_run_dependencies/wheeltec_robot_urdf\n'}
+[0.081257] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/ament_index/resource_index/parent_prefix_path/wheeltec_robot_urdf\n'}
+[0.081310] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/ament_prefix_path.sh\n'}
+[0.081390] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/ament_prefix_path.dsv\n'}
+[0.081441] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/path.sh\n'}
+[0.081490] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/path.dsv\n'}
+[0.081559] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.bash\n'}
+[0.081798] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.sh\n'}
+[0.081856] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.zsh\n'}
+[0.081913] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.dsv\n'}
+[0.081970] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Installing: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.dsv\n'}
+[0.084333] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/ament_index/resource_index/packages/wheeltec_robot_urdf\n'}
+[0.084360] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/cmake/wheeltec_robot_urdfConfig.cmake\n'}
+[0.084381] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/cmake/wheeltec_robot_urdfConfig-version.cmake\n'}
+[0.084401] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.xml\n'}
+[0.084420] (wheeltec_robot_urdf) CommandEnded: {'returncode': 0}
+[0.085200] (qt_ros_test) StdoutLine: {'line': b'[  3%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main.cpp.o\n'}
+[0.100203] (-) TimerEvent: {}
+[0.102884] (wheeltec_robot_urdf) JobEnded: {'identifier': 'wheeltec_robot_urdf', 'rc': 0}
+[0.200334] (-) TimerEvent: {}
+[0.300598] (-) TimerEvent: {}
+[0.401255] (-) TimerEvent: {}
+[0.501733] (-) TimerEvent: {}
+[0.602220] (-) TimerEvent: {}
+[0.702876] (-) TimerEvent: {}
+[0.804314] (-) TimerEvent: {}
+[0.904787] (-) TimerEvent: {}
+[1.005847] (-) TimerEvent: {}
+[1.108188] (-) TimerEvent: {}
+[1.208582] (-) TimerEvent: {}
+[1.309119] (-) TimerEvent: {}
+[1.409379] (-) TimerEvent: {}
+[1.509753] (-) TimerEvent: {}
+[1.610224] (-) TimerEvent: {}
+[1.710611] (-) TimerEvent: {}
+[1.811272] (-) TimerEvent: {}
+[1.911724] (-) TimerEvent: {}
+[2.012391] (-) TimerEvent: {}
+[2.112856] (-) TimerEvent: {}
+[2.213110] (-) TimerEvent: {}
+[2.313668] (-) TimerEvent: {}
+[2.414238] (-) TimerEvent: {}
+[2.515115] (-) TimerEvent: {}
+[2.615798] (-) TimerEvent: {}
+[2.716157] (-) TimerEvent: {}
+[2.816785] (-) TimerEvent: {}
+[2.917043] (-) TimerEvent: {}
+[3.017532] (-) TimerEvent: {}
+[3.118166] (-) TimerEvent: {}
+[3.218719] (-) TimerEvent: {}
+[3.319199] (-) TimerEvent: {}
+[3.419475] (-) TimerEvent: {}
+[3.519749] (-) TimerEvent: {}
+[3.620131] (-) TimerEvent: {}
+[3.720802] (-) TimerEvent: {}
+[3.821328] (-) TimerEvent: {}
+[3.922592] (-) TimerEvent: {}
+[4.022902] (-) TimerEvent: {}
+[4.123148] (-) TimerEvent: {}
+[4.223758] (-) TimerEvent: {}
+[4.324696] (-) TimerEvent: {}
+[4.425056] (-) TimerEvent: {}
+[4.525790] (-) TimerEvent: {}
+[4.626514] (-) TimerEvent: {}
+[4.726898] (-) TimerEvent: {}
+[4.817043] (qt_ros_test) StdoutLine: {'line': b'[  7%] Linking CXX executable qt_ros_test\n'}
+[4.829045] (-) TimerEvent: {}
+[4.929606] (-) TimerEvent: {}
+[5.030144] (-) TimerEvent: {}
+[5.130620] (-) TimerEvent: {}
+[5.231290] (-) TimerEvent: {}
+[5.332476] (-) TimerEvent: {}
+[5.434071] (-) TimerEvent: {}
+[5.536053] (-) TimerEvent: {}
+[5.636880] (-) TimerEvent: {}
+[5.737489] (-) TimerEvent: {}
+[5.837991] (-) TimerEvent: {}
+[5.938243] (-) TimerEvent: {}
+[6.038671] (-) TimerEvent: {}
+[6.139402] (-) TimerEvent: {}
+[6.239820] (-) TimerEvent: {}
+[6.340401] (-) TimerEvent: {}
+[6.441036] (-) TimerEvent: {}
+[6.541685] (-) TimerEvent: {}
+[6.642702] (-) TimerEvent: {}
+[6.743196] (-) TimerEvent: {}
+[6.843865] (-) TimerEvent: {}
+[6.944821] (-) TimerEvent: {}
+[7.045131] (-) TimerEvent: {}
+[7.145607] (-) TimerEvent: {}
+[7.196922] (qt_ros_test) StdoutLine: {'line': b'[100%] Built target qt_ros_test\n'}
+[7.203167] (qt_ros_test) CommandEnded: {'returncode': 0}
+[7.231787] (qt_ros_test) JobProgress: {'identifier': 'qt_ros_test', 'progress': 'install'}
+[7.231868] (qt_ros_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test'], 'cwd': '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'wheeltec'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOME', '/home/wheeltec'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/wheeltec/Qt/6.5.3/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/wheeltec/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1332'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1935'), ('COLCON_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'wheeltec'), ('JOURNAL_STREAM', '8:22322'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wheeltec'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', '3328b75a46014fff989b327ec4496e36'), ('SESSION_MANAGER', 'local/humble:@/tmp/.ICE-unix/1304,unix/humble:/tmp/.ICE-unix/1304'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JJ0Q62'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble')]), 'shell': False}
+[7.235415] (qt_ros_test) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[7.235549] (qt_ros_test) StdoutLine: {'line': b'-- Installing: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/lib/qt_ros_test/qt_ros_test\n'}
+[7.246031] (-) TimerEvent: {}
+[7.262547] (qt_ros_test) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/lib/qt_ros_test/qt_ros_test" to "/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/lib"\n'}
+[7.262690] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/launch\n'}
+[7.262718] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/launch/qt_ros_test.launch.py\n'}
+[7.262743] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/ament_index/resource_index/package_run_dependencies/qt_ros_test\n'}
+[7.262766] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/ament_index/resource_index/parent_prefix_path/qt_ros_test\n'}
+[7.262787] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/environment/ament_prefix_path.sh\n'}
+[7.262807] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/environment/ament_prefix_path.dsv\n'}
+[7.262827] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/environment/path.sh\n'}
+[7.262846] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/environment/path.dsv\n'}
+[7.262865] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/local_setup.bash\n'}
+[7.262884] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/local_setup.sh\n'}
+[7.262903] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/local_setup.zsh\n'}
+[7.262922] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/local_setup.dsv\n'}
+[7.262940] (qt_ros_test) StdoutLine: {'line': b'-- Installing: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/package.dsv\n'}
+[7.262999] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/ament_index/resource_index/packages/qt_ros_test\n'}
+[7.263030] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/cmake/qt_ros_testConfig.cmake\n'}
+[7.263051] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/cmake/qt_ros_testConfig-version.cmake\n'}
+[7.263071] (qt_ros_test) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test/share/qt_ros_test/package.xml\n'}
+[7.265059] (qt_ros_test) CommandEnded: {'returncode': 0}
+[7.303483] (qt_ros_test) JobEnded: {'identifier': 'qt_ros_test', 'rc': 0}
+[7.303741] (-) EventReactorShutdown: {}

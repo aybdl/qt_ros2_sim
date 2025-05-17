@@ -1,0 +1,41 @@
+[  3%] Generating ui_main_window.h
+[  7%] Generating include/qt_ros_test/moc_main_window.cpp
+[ 11%] Generating include/qt_ros_test/moc_qnode.cpp
+[ 15%] Generating include/qt_ros_test/moc_qrviz.cpp
+Consolidate compiler generated dependencies of target qt_ros_test
+[ 19%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main.cpp.o
+[ 23%] Building CXX object CMakeFiles/qt_ros_test.dir/src/qrviz.cpp.o
+[ 26%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main_window.cpp.o
+[ 30%] Building CXX object CMakeFiles/qt_ros_test.dir/include/qt_ros_test/moc_main_window.cpp.o
+In file included from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/qrviz.cpp:1:
+/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/../include/qt_ros_test/qrviz.hpp:17:10: fatal error: rviz_common/display_factory.hpp: No such file or directory
+   17 | #include <rviz_common/display_factory.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:277: CMakeFiles/qt_ros_test.dir/src/qrviz.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test/include/qt_ros_test/../../../../src/qt_ros_test/include/qt_ros_test/qnode.hpp:38,
+                 from /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test/include/qt_ros_test/../../../../src/qt_ros_test/include/qt_ros_test/main_window.hpp:17,
+                 from /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test/include/qt_ros_test/moc_main_window.cpp:10:
+/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test/include/qt_ros_test/../../../../src/qt_ros_test/include/qt_ros_test/qrviz.hpp:17:10: fatal error: rviz_common/display_factory.hpp: No such file or directory
+   17 | #include <rviz_common/display_factory.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:347: CMakeFiles/qt_ros_test.dir/include/qt_ros_test/moc_main_window.cpp.o] Error 1
+In file included from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/include/qt_ros_test/qnode.hpp:38,
+                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main.cpp:14:
+/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/include/qt_ros_test/qrviz.hpp:17:10: fatal error: rviz_common/display_factory.hpp: No such file or directory
+   17 | #include <rviz_common/display_factory.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:221: CMakeFiles/qt_ros_test.dir/src/main.cpp.o] Error 1
+In file included from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/../include/qt_ros_test/qnode.hpp:38,
+                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/../include/qt_ros_test/main_window.hpp:17,
+                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:16:
+/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/../include/qt_ros_test/qrviz.hpp:17:10: fatal error: rviz_common/display_factory.hpp: No such file or directory
+   17 | #include <rviz_common/display_factory.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:235: CMakeFiles/qt_ros_test.dir/src/main_window.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/qt_ros_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

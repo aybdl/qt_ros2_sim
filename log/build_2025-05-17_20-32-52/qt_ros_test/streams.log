@@ -1,0 +1,43 @@
+[0.007s] Invoking command in '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test -- -j4 -l4
+[0.035s] [  3%] Generating ui_main_window.h
+[0.037s] [  7%] Generating include/qt_ros_test/moc_main_window.cpp
+[0.037s] [ 11%] Generating include/qt_ros_test/moc_qnode.cpp
+[0.041s] [ 15%] Generating include/qt_ros_test/moc_qrviz.cpp
+[0.062s] Consolidate compiler generated dependencies of target qt_ros_test
+[0.072s] [ 19%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main.cpp.o
+[0.073s] [ 23%] Building CXX object CMakeFiles/qt_ros_test.dir/src/qrviz.cpp.o
+[0.074s] [ 26%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main_window.cpp.o
+[0.079s] [ 30%] Building CXX object CMakeFiles/qt_ros_test.dir/include/qt_ros_test/moc_main_window.cpp.o
+[0.332s] In file included from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/qrviz.cpp:1:
+[0.332s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/../include/qt_ros_test/qrviz.hpp:17:10: fatal error: rviz_common/display_factory.hpp: No such file or directory
+[0.332s]    17 | #include <rviz_common/display_factory.hpp>
+[0.332s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.332s] compilation terminated.
+[0.333s] gmake[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:277: CMakeFiles/qt_ros_test.dir/src/qrviz.cpp.o] Error 1
+[0.333s] gmake[2]: *** Waiting for unfinished jobs....
+[0.376s] In file included from /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test/include/qt_ros_test/../../../../src/qt_ros_test/include/qt_ros_test/qnode.hpp:38,
+[0.376s]                  from /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test/include/qt_ros_test/../../../../src/qt_ros_test/include/qt_ros_test/main_window.hpp:17,
+[0.376s]                  from /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test/include/qt_ros_test/moc_main_window.cpp:10:
+[0.376s] /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test/include/qt_ros_test/../../../../src/qt_ros_test/include/qt_ros_test/qrviz.hpp:17:10: fatal error: rviz_common/display_factory.hpp: No such file or directory
+[0.376s]    17 | #include <rviz_common/display_factory.hpp>
+[0.376s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.376s] compilation terminated.
+[0.378s] gmake[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:347: CMakeFiles/qt_ros_test.dir/include/qt_ros_test/moc_main_window.cpp.o] Error 1
+[0.479s] In file included from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/include/qt_ros_test/qnode.hpp:38,
+[0.479s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main.cpp:14:
+[0.480s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/include/qt_ros_test/qrviz.hpp:17:10: fatal error: rviz_common/display_factory.hpp: No such file or directory
+[0.480s]    17 | #include <rviz_common/display_factory.hpp>
+[0.480s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.480s] compilation terminated.
+[0.482s] gmake[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:221: CMakeFiles/qt_ros_test.dir/src/main.cpp.o] Error 1
+[0.488s] In file included from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/../include/qt_ros_test/qnode.hpp:38,
+[0.488s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/../include/qt_ros_test/main_window.hpp:17,
+[0.488s]                  from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:16:
+[0.488s] /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/../include/qt_ros_test/qrviz.hpp:17:10: fatal error: rviz_common/display_factory.hpp: No such file or directory
+[0.488s]    17 | #include <rviz_common/display_factory.hpp>
+[0.488s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.488s] compilation terminated.
+[0.492s] gmake[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:235: CMakeFiles/qt_ros_test.dir/src/main_window.cpp.o] Error 1
+[0.492s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/qt_ros_test.dir/all] Error 2
+[0.492s] gmake: *** [Makefile:146: all] Error 2
+[0.494s] Invoked command in '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test -- -j4 -l4

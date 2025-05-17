@@ -1,0 +1,490 @@
+[0.000000] (-) TimerEvent: {}
+[0.009909] (qt_ros_test) JobQueued: {'identifier': 'qt_ros_test', 'dependencies': OrderedDict()}
+[0.009943] (wheeltec_robot_urdf) JobQueued: {'identifier': 'wheeltec_robot_urdf', 'dependencies': OrderedDict()}
+[0.009952] (qt_ros_test) JobStarted: {'identifier': 'qt_ros_test'}
+[0.010698] (wheeltec_robot_urdf) JobStarted: {'identifier': 'wheeltec_robot_urdf'}
+[0.016690] (qt_ros_test) JobProgress: {'identifier': 'qt_ros_test', 'progress': 'cmake'}
+[0.020953] (qt_ros_test) JobProgress: {'identifier': 'qt_ros_test', 'progress': 'build'}
+[0.028022] (qt_ros_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test', '--', '-j4', '-l4'], 'cwd': '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'wheeltec'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOME', '/home/wheeltec'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/wheeltec/Qt/6.5.3/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/wheeltec/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1332'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1935'), ('COLCON_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'wheeltec'), ('JOURNAL_STREAM', '8:22322'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wheeltec'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', '3328b75a46014fff989b327ec4496e36'), ('SESSION_MANAGER', 'local/humble:@/tmp/.ICE-unix/1304,unix/humble:/tmp/.ICE-unix/1304'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JJ0Q62'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/wheeltec/lab103/qt_sim_v1/build/qt_ros_test'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble')]), 'shell': False}
+[0.031717] (wheeltec_robot_urdf) JobProgress: {'identifier': 'wheeltec_robot_urdf', 'progress': 'cmake'}
+[0.038219] (wheeltec_robot_urdf) JobProgress: {'identifier': 'wheeltec_robot_urdf', 'progress': 'build'}
+[0.038257] (wheeltec_robot_urdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf', '--', '-j4', '-l4'], 'cwd': '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'wheeltec'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOME', '/home/wheeltec'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/wheeltec/Qt/6.5.3/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/wheeltec/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1332'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1935'), ('COLCON_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'wheeltec'), ('JOURNAL_STREAM', '8:22322'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wheeltec'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', '3328b75a46014fff989b327ec4496e36'), ('SESSION_MANAGER', 'local/humble:@/tmp/.ICE-unix/1304,unix/humble:/tmp/.ICE-unix/1304'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JJ0Q62'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble')]), 'shell': False}
+[0.100454] (-) TimerEvent: {}
+[0.112781] (wheeltec_robot_urdf) CommandEnded: {'returncode': 0}
+[0.122194] (qt_ros_test) StdoutLine: {'line': b'[  3%] Generating ui_main_window.h\n'}
+[0.122325] (qt_ros_test) StdoutLine: {'line': b'[  7%] Generating include/qt_ros_test/moc_qrviz.cpp\n'}
+[0.131147] (qt_ros_test) StdoutLine: {'line': b'[ 11%] Generating include/qt_ros_test/moc_main_window.cpp\n'}
+[0.180748] (wheeltec_robot_urdf) JobProgress: {'identifier': 'wheeltec_robot_urdf', 'progress': 'install'}
+[0.195516] (wheeltec_robot_urdf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf'], 'cwd': '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'wheeltec'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('HOME', '/home/wheeltec'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/wheeltec/Qt/6.5.3/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/wheeltec/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '997'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1332'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1935'), ('COLCON_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'wheeltec'), ('JOURNAL_STREAM', '8:22322'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wheeltec'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', '3328b75a46014fff989b327ec4496e36'), ('SESSION_MANAGER', 'local/humble:@/tmp/.ICE-unix/1304,unix/humble:/tmp/.ICE-unix/1304'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JJ0Q62'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/wheeltec/lab103/qt_sim_v1/build/wheeltec_robot_urdf'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf:/home/wheeltec/lab103/qt_sim_v1/install/qt_ros_test:/opt/ros/humble')]), 'shell': False}
+[0.204305] (-) TimerEvent: {}
+[0.206450] (qt_ros_test) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target qt_ros_test\n'}
+[0.208233] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.208463] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes\n'}
+[0.211533] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases\n'}
+[0.211636] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases/waffle_pi_base.stl\n'}
+[0.211668] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases/waffle_base.stl\n'}
+[0.211691] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases/burger_base.stl\n'}
+[0.211712] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/wheels\n'}
+[0.211732] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/wheels/left_tire.stl\n'}
+[0.211830] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/wheels/right_tire.stl\n'}
+[0.211887] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors\n'}
+[0.211912] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/astra.jpg\n'}
+[0.211933] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/astra.dae\n'}
+[0.211953] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/lds.stl\n'}
+[0.211979] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/r200.dae\n'}
+[0.211999] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/r200.jpg\n'}
+[0.212899] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes\n'}
+[0.212951] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/lf_wheel_link.STL\n'}
+[0.212976] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/camera_link.STL\n'}
+[0.212998] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/base_link.STL\n'}
+[0.213017] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/rf_wheel_link.STL\n'}
+[0.213036] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/lb_wheel_link.STL\n'}
+[0.213055] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/controller_link.STL\n'}
+[0.213074] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/laser.STL\n'}
+[0.213093] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/mini_mec_robot_meshes/rb_wheel_link.STL\n'}
+[0.213112] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/rviz\n'}
+[0.213135] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/rviz/model.rviz\n'}
+[0.213155] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf\n'}
+[0.213176] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_diff_robot.urdf\n'}
+[0.213195] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_4wd_dl_robot.urdf\n'}
+[0.213215] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_mec_dl_robot.urdf\n'}
+[0.213233] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/four_wheel_diff_dl_robot.urdf\n'}
+[0.213252] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_omni_robot.urdf\n'}
+[0.213270] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_akm_bs_robot.urdf\n'}
+[0.213294] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mec_EightDrive_robot.urdf\n'}
+[0.213313] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_mec_dl_robot.urdf\n'}
+[0.213356] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_akm_robot.urdf\n'}
+[0.213375] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_diff_robot.urdf\n'}
+[0.213394] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_akm_dl_robot.urdf\n'}
+[0.213413] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_4wd_robot.urdf\n'}
+[0.213431] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_four_wheel_diff_dl_robot.urdf\n'}
+[0.213449] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_mec_moveit.urdf\n'}
+[0.213467] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_mec_dl_robot.urdf\n'}
+[0.213486] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_4wd_dl_robot.urdf\n'}
+[0.213503] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_mec_robot.urdf\n'}
+[0.213531] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_akm_robot.urdf\n'}
+[0.213558] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_mec_bs_robot.urdf\n'}
+[0.213577] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_four_wheel_diff_bs_robot.urdf\n'}
+[0.213596] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_4wd_bs_robot.urdf\n'}
+[0.213615] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/brushless_senior_diff.urdf\n'}
+[0.213633] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/four_wheel_diff_bs_robot.urdf\n'}
+[0.213650] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_omni_robot.urdf\n'}
+[0.213668] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_4wd_dl_robot.urdf\n'}
+[0.213686] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_omni_robot.urdf\n'}
+[0.213704] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_4wd_bs_robot.urdf\n'}
+[0.213721] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_mec_robot.urdf\n'}
+[0.213741] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_tank_moveit.urdf\n'}
+[0.213760] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_4wd_bs_robot.urdf\n'}
+[0.213778] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_mec_bs_robot.urdf\n'}
+[0.213795] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/ament_index/resource_index/package_run_dependencies/wheeltec_robot_urdf\n'}
+[0.213813] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/ament_index/resource_index/parent_prefix_path/wheeltec_robot_urdf\n'}
+[0.213831] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/ament_prefix_path.sh\n'}
+[0.213873] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/ament_prefix_path.dsv\n'}
+[0.213901] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/path.sh\n'}
+[0.213920] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/path.dsv\n'}
+[0.213941] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.bash\n'}
+[0.213960] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.sh\n'}
+[0.213978] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.zsh\n'}
+[0.213996] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.dsv\n'}
+[0.214014] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Installing: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.dsv\n'}
+[0.214266] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/ament_index/resource_index/packages/wheeltec_robot_urdf\n'}
+[0.214310] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/cmake/wheeltec_robot_urdfConfig.cmake\n'}
+[0.214336] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/cmake/wheeltec_robot_urdfConfig-version.cmake\n'}
+[0.214360] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/lab103/qt_sim_v1/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.xml\n'}
+[0.217221] (wheeltec_robot_urdf) CommandEnded: {'returncode': 0}
+[0.252871] (qt_ros_test) StdoutLine: {'line': b'[ 15%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main.cpp.o\n'}
+[0.263018] (qt_ros_test) StdoutLine: {'line': b'[ 19%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main_window.cpp.o\n'}
+[0.264216] (qt_ros_test) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/qt_ros_test.dir/src/qrviz.cpp.o\n'}
+[0.273176] (qt_ros_test) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/qt_ros_test.dir/include/qt_ros_test/moc_main_window.cpp.o\n'}
+[0.290100] (wheeltec_robot_urdf) JobEnded: {'identifier': 'wheeltec_robot_urdf', 'rc': 0}
+[0.304654] (-) TimerEvent: {}
+[0.405931] (-) TimerEvent: {}
+[0.507844] (-) TimerEvent: {}
+[0.609082] (-) TimerEvent: {}
+[0.710727] (-) TimerEvent: {}
+[0.814265] (-) TimerEvent: {}
+[0.914578] (-) TimerEvent: {}
+[1.015518] (-) TimerEvent: {}
+[1.115875] (-) TimerEvent: {}
+[1.217047] (-) TimerEvent: {}
+[1.318386] (-) TimerEvent: {}
+[1.418622] (-) TimerEvent: {}
+[1.519500] (-) TimerEvent: {}
+[1.622634] (-) TimerEvent: {}
+[1.723434] (-) TimerEvent: {}
+[1.824331] (-) TimerEvent: {}
+[1.925115] (-) TimerEvent: {}
+[2.026276] (-) TimerEvent: {}
+[2.126485] (-) TimerEvent: {}
+[2.226856] (-) TimerEvent: {}
+[2.329231] (-) TimerEvent: {}
+[2.429477] (-) TimerEvent: {}
+[2.530465] (-) TimerEvent: {}
+[2.630699] (-) TimerEvent: {}
+[2.731241] (-) TimerEvent: {}
+[2.832054] (-) TimerEvent: {}
+[2.933886] (-) TimerEvent: {}
+[3.034728] (-) TimerEvent: {}
+[3.136749] (-) TimerEvent: {}
+[3.237438] (-) TimerEvent: {}
+[3.338372] (-) TimerEvent: {}
+[3.442252] (-) TimerEvent: {}
+[3.551031] (-) TimerEvent: {}
+[3.651620] (-) TimerEvent: {}
+[3.752003] (-) TimerEvent: {}
+[3.853415] (-) TimerEvent: {}
+[3.954076] (-) TimerEvent: {}
+[4.054842] (-) TimerEvent: {}
+[4.155805] (-) TimerEvent: {}
+[4.256260] (-) TimerEvent: {}
+[4.357191] (-) TimerEvent: {}
+[4.457987] (-) TimerEvent: {}
+[4.558841] (-) TimerEvent: {}
+[4.660666] (-) TimerEvent: {}
+[4.765412] (-) TimerEvent: {}
+[4.867245] (-) TimerEvent: {}
+[4.967467] (-) TimerEvent: {}
+[5.083124] (-) TimerEvent: {}
+[5.193420] (-) TimerEvent: {}
+[5.294677] (-) TimerEvent: {}
+[5.396523] (-) TimerEvent: {}
+[5.497318] (-) TimerEvent: {}
+[5.597786] (-) TimerEvent: {}
+[5.698154] (-) TimerEvent: {}
+[5.798448] (-) TimerEvent: {}
+[5.909928] (-) TimerEvent: {}
+[6.012085] (-) TimerEvent: {}
+[6.113251] (-) TimerEvent: {}
+[6.216143] (-) TimerEvent: {}
+[6.317985] (-) TimerEvent: {}
+[6.418837] (-) TimerEvent: {}
+[6.521200] (-) TimerEvent: {}
+[6.621679] (-) TimerEvent: {}
+[6.723388] (-) TimerEvent: {}
+[6.824741] (-) TimerEvent: {}
+[6.934320] (-) TimerEvent: {}
+[7.034794] (-) TimerEvent: {}
+[7.137431] (-) TimerEvent: {}
+[7.237707] (-) TimerEvent: {}
+[7.345024] (-) TimerEvent: {}
+[7.351405] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In destructor \xe2\x80\x98virtual qt_ros_test::MainWindow::~MainWindow()\xe2\x80\x99:\n'}
+[7.356813] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:112:22: warning: \xe2\x80\x98static int QProcess::execute(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::execute(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.357130] (qt_ros_test) StderrLine: {'line': b'  112 |     QProcess::execute("ssh -Y wheeltec@192.168.0.100\\n"\n'}
+[7.357160] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.357183] (qt_ros_test) StderrLine: {'line': b'  113 |                     "killall -s INT -w ros2\\n");\n'}
+[7.357219] (qt_ros_test) StderrLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.357243] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.357276] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.357304] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.357326] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.357361] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:265:16: note: declared here\n'}
+[7.357384] (qt_ros_test) StderrLine: {'line': b'  265 |     static int execute(const QString &command);\n'}
+[7.357405] (qt_ros_test) StderrLine: {'line': b'      |                ^~~~~~~\n'}
+[7.428186] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::init_cmd()\xe2\x80\x99:\n'}
+[7.428368] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:142:16: warning: \xe2\x80\x98void QProcess::start(const QString&, QIODevice::OpenMode)\xe2\x80\x99 is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]\n'}
+[7.428898] (qt_ros_test) StderrLine: {'line': b'  142 |     _cmd->start("bash");\n'}
+[7.428928] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~^~~~~~~~\n'}
+[7.428951] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.428974] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.429545] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.429569] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.429589] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here\n'}
+[7.429609] (qt_ros_test) StderrLine: {'line': b'  168 |     void start(const QString &command, OpenMode mode = ReadWrite);\n'}
+[7.429629] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~\n'}
+[7.434320] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::closeroslaunch()\xe2\x80\x99:\n'}
+[7.434960] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:196:19: warning: \xe2\x80\x98void QProcess::start(const QString&, QIODevice::OpenMode)\xe2\x80\x99 is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]\n'}
+[7.434998] (qt_ros_test) StderrLine: {'line': b'  196 |     killall->start("ssh -Y wheeltec@192.168.3.120\\n"\n'}
+[7.435023] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.435047] (qt_ros_test) StderrLine: {'line': b'  197 |                     "killall -s INT -wg ros2\\n");\n'}
+[7.435071] (qt_ros_test) StderrLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.435093] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.435115] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.435136] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.435162] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.435182] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here\n'}
+[7.435253] (qt_ros_test) StderrLine: {'line': b'  168 |     void start(const QString &command, OpenMode mode = ReadWrite);\n'}
+[7.435275] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~\n'}
+[7.441720] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::slot_cmd_read()\xe2\x80\x99:\n'}
+[7.441822] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:244:10: warning: ISO C++ forbids variable length array \xe2\x80\x98buffer\xe2\x80\x99 [-Wvla]\n'}
+[7.441854] (qt_ros_test) StderrLine: {'line': b'  244 |     char buffer[maxSize];\n'}
+[7.441877] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~~\n'}
+[7.445780] (-) TimerEvent: {}
+[7.446493] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::ReadSettings()\xe2\x80\x99:\n'}
+[7.446588] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:300:10: warning: unused variable \xe2\x80\x98remember\xe2\x80\x99 [-Wunused-variable]\n'}
+[7.446619] (qt_ros_test) StderrLine: {'line': b'  300 |     bool remember = settings.value("remember_settings", false).toBool();\n'}
+[7.446643] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~~~~\n'}
+[7.450857] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:301:10: warning: unused variable \xe2\x80\x98checked\xe2\x80\x99 [-Wunused-variable]\n'}
+[7.451351] (qt_ros_test) StderrLine: {'line': b'  301 |     bool checked = settings.value("use_environment_variables", false).toBool();\n'}
+[7.451390] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~~~\n'}
+[7.451414] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_set_fixframe_btn_clicked()\xe2\x80\x99:\n'}
+[7.451439] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:328:29: error: base operand of \xe2\x80\x98->\xe2\x80\x99 has non-pointer type \xe2\x80\x98Ui::MainWindowDesign\xe2\x80\x99\n'}
+[7.451460] (qt_ros_test) StderrLine: {'line': b'  328 |     QString currentText = ui->lineEdit_framid->text();\n'}
+[7.451482] (qt_ros_test) StderrLine: {'line': b'      |                             ^~\n'}
+[7.490686] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_webusbcam_clicked(bool)\xe2\x80\x99:\n'}
+[7.490860] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:597:23: warning: \xe2\x80\x98void QProcess::start(const QString&, QIODevice::OpenMode)\xe2\x80\x99 is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]\n'}
+[7.490976] (qt_ros_test) StderrLine: {'line': b'  597 |         killall->start("ssh -Y wheeltec@192.168.0.100\\n"\n'}
+[7.491000] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.491022] (qt_ros_test) StderrLine: {'line': b'  598 |                 "killall -s INT -g ros2\\n");\n'}
+[7.491044] (qt_ros_test) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.491159] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.491192] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.491213] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.491234] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.491255] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here\n'}
+[7.491277] (qt_ros_test) StderrLine: {'line': b'  168 |     void start(const QString &command, OpenMode mode = ReadWrite);\n'}
+[7.491300] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~\n'}
+[7.492270] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_2dmap_clicked(bool)\xe2\x80\x99:\n'}
+[7.492521] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:621:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.492598] (qt_ros_test) StderrLine: {'line': b'  621 |         rviz_cmd->startDetached("rviz2");\n'}
+[7.492623] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\n'}
+[7.493030] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.493080] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.493104] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.493126] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.493151] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.493171] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.493191] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.494378] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:627:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.494439] (qt_ros_test) StderrLine: {'line': b'  627 |         rviz_cmd->startDetached("killall -2 rviz2");\n'}
+[7.494465] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\n'}
+[7.494486] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.494508] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.494530] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.494550] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.494570] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.494593] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.494611] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.494629] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_2dmap_2_clicked()\xe2\x80\x99:\n'}
+[7.494648] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:651:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.494670] (qt_ros_test) StderrLine: {'line': b'  651 |         rviz_cmd->startDetached("rviz2");\n'}
+[7.494689] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\n'}
+[7.494706] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.494724] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.494742] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.494837] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.494900] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.494960] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.495038] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.495499] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:657:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.495537] (qt_ros_test) StderrLine: {'line': b'  657 |         rviz_cmd->startDetached("killall -2 rviz2");\n'}
+[7.495559] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\n'}
+[7.495579] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.495600] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.495621] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.495641] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.495659] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.495678] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.495697] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.497312] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_2dmap_3_clicked()\xe2\x80\x99:\n'}
+[7.497374] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:681:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.497402] (qt_ros_test) StderrLine: {'line': b'  681 |         rviz_cmd->startDetached("rviz2");\n'}
+[7.497424] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\n'}
+[7.497461] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.497485] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.497506] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.497531] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.497714] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.497734] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.497754] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.497772] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:687:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.497792] (qt_ros_test) StderrLine: {'line': b'  687 |         rviz_cmd->startDetached("killall -2 rviz2");\n'}
+[7.497812] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\n'}
+[7.497847] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.497874] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.497923] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.497966] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.497987] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.498009] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.498029] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.506433] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_2dnav_clicked(bool)\xe2\x80\x99:\n'}
+[7.506555] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:729:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.506586] (qt_ros_test) StderrLine: {'line': b'  729 |         rviz_cmd->startDetached("rviz2");\n'}
+[7.507061] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\n'}
+[7.507085] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.507106] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.507129] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.507149] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.507169] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.507188] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.507207] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.507226] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:735:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.507247] (qt_ros_test) StderrLine: {'line': b'  735 |         rviz_cmd->startDetached("killall -2 rviz2");\n'}
+[7.507266] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\n'}
+[7.507283] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.507302] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.507320] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.507338] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.507356] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.507442] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.507461] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.507479] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_3dmap_clicked(bool)\xe2\x80\x99:\n'}
+[7.507498] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:760:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.507517] (qt_ros_test) StderrLine: {'line': b'  760 |         rviz_cmd->startDetached("rviz2");\n'}
+[7.507635] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\n'}
+[7.507654] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.507757] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.507865] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.507890] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.507911] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.507931] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.507951] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.508035] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:766:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.508058] (qt_ros_test) StderrLine: {'line': b'  766 |         rviz_cmd->startDetached("killall -2 rviz2");\n'}
+[7.508077] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\n'}
+[7.508096] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.508115] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.508134] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.508152] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.508170] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.508189] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.508207] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.508225] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_3dnav_clicked(bool)\xe2\x80\x99:\n'}
+[7.508244] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:798:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.508267] (qt_ros_test) StderrLine: {'line': b'  798 |         rviz_cmd->startDetached("rviz2");\n'}
+[7.508286] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\n'}
+[7.508304] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.508322] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.508340] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.508357] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.508375] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.508394] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.508411] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.508428] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:805:32: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.508448] (qt_ros_test) StderrLine: {'line': b'  805 |         rviz_cmd->startDetached("killall -2 rviz2");\n'}
+[7.508466] (qt_ros_test) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\n'}
+[7.508484] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.508501] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.508518] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.508536] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.508554] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.508571] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.508592] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.508613] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_nfsrobot_clicked(bool)\xe2\x80\x99:\n'}
+[7.508631] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:833:16: warning: \xe2\x80\x98void QProcess::start(const QString&, QIODevice::OpenMode)\xe2\x80\x99 is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]\n'}
+[7.508650] (qt_ros_test) StderrLine: {'line': b'  833 |     _cmd->start("bash");\n'}
+[7.508670] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~^~~~~~~~\n'}
+[7.508687] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.508706] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.508723] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.508740] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.508758] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here\n'}
+[7.508776] (qt_ros_test) StderrLine: {'line': b'  168 |     void start(const QString &command, OpenMode mode = ReadWrite);\n'}
+[7.508793] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~\n'}
+[7.508811] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_unfsrobot_clicked(bool)\xe2\x80\x99:\n'}
+[7.508828] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:844:16: warning: \xe2\x80\x98void QProcess::start(const QString&, QIODevice::OpenMode)\xe2\x80\x99 is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]\n'}
+[7.508847] (qt_ros_test) StderrLine: {'line': b'  844 |     _cmd->start("bash");\n'}
+[7.508864] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~^~~~~~~~\n'}
+[7.518450] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.518636] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.518664] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.518693] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.518714] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here\n'}
+[7.518734] (qt_ros_test) StderrLine: {'line': b'  168 |     void start(const QString &command, OpenMode mode = ReadWrite);\n'}
+[7.518753] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~\n'}
+[7.518772] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_nfsarm_clicked(bool)\xe2\x80\x99:\n'}
+[7.518793] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:855:16: warning: \xe2\x80\x98void QProcess::start(const QString&, QIODevice::OpenMode)\xe2\x80\x99 is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]\n'}
+[7.518814] (qt_ros_test) StderrLine: {'line': b'  855 |     _cmd->start("bash");\n'}
+[7.518835] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~^~~~~~~~\n'}
+[7.518853] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.518871] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.518890] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.518929] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.518950] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here\n'}
+[7.518969] (qt_ros_test) StderrLine: {'line': b'  168 |     void start(const QString &command, OpenMode mode = ReadWrite);\n'}
+[7.518990] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~\n'}
+[7.519009] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_unfsarm_clicked(bool)\xe2\x80\x99:\n'}
+[7.519028] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:866:16: warning: \xe2\x80\x98void QProcess::start(const QString&, QIODevice::OpenMode)\xe2\x80\x99 is deprecated: Use QProcess::start(const QString &program, const QStringList &arguments,OpenMode mode = ReadWrite) instead [-Wdeprecated-declarations]\n'}
+[7.519048] (qt_ros_test) StderrLine: {'line': b'  866 |     _cmd->start("bash");\n'}
+[7.519066] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~^~~~~~~~\n'}
+[7.519083] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.519102] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.519120] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.519137] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.519154] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:168:10: note: declared here\n'}
+[7.519331] (qt_ros_test) StderrLine: {'line': b'  168 |     void start(const QString &command, OpenMode mode = ReadWrite);\n'}
+[7.519365] (qt_ros_test) StderrLine: {'line': b'      |          ^~~~~\n'}
+[7.519386] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_rqt_clicked(bool)\xe2\x80\x99:\n'}
+[7.519409] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:899:27: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.519447] (qt_ros_test) StderrLine: {'line': b'  899 |     rqt_cmd->startDetached("rqt");\n'}
+[7.519467] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\n'}
+[7.519486] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.519504] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.519522] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.519541] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.519559] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.519577] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.519595] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.519613] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_pushButton_rviz_clicked(bool)\xe2\x80\x99:\n'}
+[7.519631] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:905:28: warning: \xe2\x80\x98static bool QProcess::startDetached(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::startDetached(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.519650] (qt_ros_test) StderrLine: {'line': b'  905 |     rviz_cmd->startDetached("rviz2");\n'}
+[7.519668] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\n'}
+[7.519685] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.519704] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.519723] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.519740] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.519758] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:280:17: note: declared here\n'}
+[7.519775] (qt_ros_test) StderrLine: {'line': b'  280 |     static bool startDetached(const QString &command);\n'}
+[7.519793] (qt_ros_test) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[7.519810] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp: In member function \xe2\x80\x98void qt_ros_test::MainWindow::on_quit_button_2_clicked(bool)\xe2\x80\x99:\n'}
+[7.519828] (qt_ros_test) StderrLine: {'line': b'/home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:970:22: warning: \xe2\x80\x98static int QProcess::execute(const QString&)\xe2\x80\x99 is deprecated: Use QProcess::execute(const QString &program, const QStringList &arguments) instead [-Wdeprecated-declarations]\n'}
+[7.519847] (qt_ros_test) StderrLine: {'line': b'  970 |     QProcess::execute("ssh -Y wheeltec@192.168.0.100\\n"\n'}
+[7.519867] (qt_ros_test) StderrLine: {'line': b'      |     ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.519886] (qt_ros_test) StderrLine: {'line': b'  971 |                       "killall -s INT -w ros2\\n");\n'}
+[7.519903] (qt_ros_test) StderrLine: {'line': b'      |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[7.519920] (qt_ros_test) StderrLine: {'line': b'In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:170,\n'}
+[7.519938] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGuiDepends:3,\n'}
+[7.519957] (qt_ros_test) StderrLine: {'line': b'                 from /usr/include/x86_64-linux-gnu/qt5/QtGui/QtGui:3,\n'}
+[7.519976] (qt_ros_test) StderrLine: {'line': b'                 from /home/wheeltec/lab103/qt_sim_v1/src/qt_ros_test/src/main_window.cpp:12:\n'}
+[7.519996] (qt_ros_test) StderrLine: {'line': b'/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h:265:16: note: declared here\n'}
+[7.520018] (qt_ros_test) StderrLine: {'line': b'  265 |     static int execute(const QString &command);\n'}
+[7.520038] (qt_ros_test) StderrLine: {'line': b'      |                ^~~~~~~\n'}
+[7.546326] (-) TimerEvent: {}
+[7.646961] (-) TimerEvent: {}
+[7.750470] (-) TimerEvent: {}
+[7.835341] (qt_ros_test) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/qt_ros_test.dir/include/qt_ros_test/moc_qrviz.cpp.o\n'}
+[7.850602] (-) TimerEvent: {}
+[7.950884] (-) TimerEvent: {}
+[8.051274] (-) TimerEvent: {}
+[8.151658] (-) TimerEvent: {}
+[8.252794] (-) TimerEvent: {}
+[8.354198] (-) TimerEvent: {}
+[8.454560] (-) TimerEvent: {}
+[8.555430] (-) TimerEvent: {}
+[8.656082] (-) TimerEvent: {}
+[8.756760] (-) TimerEvent: {}
+[8.757080] (qt_ros_test) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/qt_ros_test.dir/build.make:235: CMakeFiles/qt_ros_test.dir/src/main_window.cpp.o] Error 1\n'}
+[8.757254] (qt_ros_test) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[8.857685] (-) TimerEvent: {}
+[8.958132] (-) TimerEvent: {}
+[9.058893] (-) TimerEvent: {}
+[9.160508] (-) TimerEvent: {}
+[9.261315] (-) TimerEvent: {}
+[9.361650] (-) TimerEvent: {}
+[9.462298] (-) TimerEvent: {}
+[9.562565] (-) TimerEvent: {}
+[9.663630] (-) TimerEvent: {}
+[9.763966] (-) TimerEvent: {}
+[9.865921] (-) TimerEvent: {}
+[9.966189] (-) TimerEvent: {}
+[10.066543] (-) TimerEvent: {}
+[10.168291] (-) TimerEvent: {}
+[10.269201] (-) TimerEvent: {}
+[10.370321] (-) TimerEvent: {}
+[10.472246] (-) TimerEvent: {}
+[10.573792] (-) TimerEvent: {}
+[10.676286] (-) TimerEvent: {}
+[10.776821] (-) TimerEvent: {}
+[10.878042] (-) TimerEvent: {}
+[10.978304] (-) TimerEvent: {}
+[11.078716] (-) TimerEvent: {}
+[11.179934] (-) TimerEvent: {}
+[11.280371] (-) TimerEvent: {}
+[11.380651] (-) TimerEvent: {}
+[11.481334] (-) TimerEvent: {}
+[11.581748] (-) TimerEvent: {}
+[11.612352] (qt_ros_test) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/qt_ros_test.dir/all] Error 2\n'}
+[11.614545] (qt_ros_test) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.636340] (qt_ros_test) CommandEnded: {'returncode': 2}
+[11.685924] (-) TimerEvent: {}
+[11.715720] (qt_ros_test) JobEnded: {'identifier': 'qt_ros_test', 'rc': 2}
+[11.727754] (-) EventReactorShutdown: {}

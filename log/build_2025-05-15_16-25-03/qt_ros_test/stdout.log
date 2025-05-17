@@ -1,0 +1,9 @@
+[  3%] Generating ui_main_window.h
+[  7%] Generating include/qt_ros_test/moc_qrviz.cpp
+[ 11%] Generating include/qt_ros_test/moc_main_window.cpp
+Consolidate compiler generated dependencies of target qt_ros_test
+[ 15%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main.cpp.o
+[ 19%] Building CXX object CMakeFiles/qt_ros_test.dir/src/main_window.cpp.o
+[ 23%] Building CXX object CMakeFiles/qt_ros_test.dir/src/qrviz.cpp.o
+[ 26%] Building CXX object CMakeFiles/qt_ros_test.dir/include/qt_ros_test/moc_main_window.cpp.o
+[ 30%] Building CXX object CMakeFiles/qt_ros_test.dir/include/qt_ros_test/moc_qrviz.cpp.o
